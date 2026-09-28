@@ -1,0 +1,28 @@
+{
+  "//": "Проект целиком на JavaScript. Исходники React Native внутри node_modules написаны на JS с Flow-аннотациями, и встроенный в редактор TypeScript-сервер разбирает их как TypeScript — отсюда ошибки вида «'import type' declarations can only be used in TypeScript files». Проверку JS отключаем: подсветка и автодополнение остаются, ложных ошибок нет.",
+
+  "javascript.validate.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": false,
+
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+
+  "files.exclude": {
+    "**/.expo": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.expo": true,
+    "**/dist": true,
+    "**/package-lock.json": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.expo/**": true,
+    "**/dist/**": true
+  },
+
+  "editor.formatOnSave": false,
+  "files.eol": "\n"
+}

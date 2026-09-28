@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+android/
+ios/
+
+# .env коммитится: в нём только публичные значения (адрес Supabase
+# и publishable-ключ), которые и так попадают в бандл приложения.
+# Секреты сюда не класть. Локальные переопределения — в .env.local.
+.env.*
+!.env.example

@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Дети на планете",
+    "slug": "planet-kids-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "planetkids",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "backgroundColor": "#FAFAFA",
+    "splash": {
+      "backgroundColor": "#FAFAFA",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.planetkids.mobile",
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "ru.planetkids.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#6E94F5"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-font"],
+    "extra": {
+      "supabaseUrl": null,
+      "supabaseAnonKey": null
+    }
+  }
+}
